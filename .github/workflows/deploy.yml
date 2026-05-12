@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         working-directory: ./UX Prototype
-        run: npx vite build
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
